@@ -4,7 +4,7 @@ jean-michel.plourde1@uqac.ca
 
 ## About The Project
 
-Réalisation du laboratoire #1 du cours 6GEI466 - Applications réseaux et sécurité informatique. Il s'agit de la réalistion d'un petit serveur en Flask servant des requêtes HTTP.
+Réalisation du laboratoire #2 du cours 6GEI466 - Applications réseaux et sécurité informatique. Il s'agit de la réalistion d'un petit serveur en Flask servant des requêtes HTTP.
 
 ### Built With
 
@@ -24,22 +24,22 @@ Réalisation du laboratoire #1 du cours 6GEI466 - Applications réseaux et sécu
 1. Clone or unzip the repo
    * SSH
      ```sh
-     git clone git@github.com:giant995/6GEI466_Lab_1.git
+     git clone git@github.com:giant995/6GEI466_Lab_2.git
      ```
    
    * HTTPS
      ```sh
-     git clone https://github.com/giant995/6GEI466_Lab_1.git
+     git clone https://github.com/giant995/6GEI466_Lab_2.git
      ```
    
    * Zip download
      ```
-     https://github.com/giant995/6GEI466_Lab_1/archive/main.zip
+     https://github.com/giant995/6GEI466_Lab_2/archive/main.zip
      ```
    
 2. Go into the project folder
    ```sh
-   cd 6GEI466_Lab_1
+   cd 6GEI466_Lab_2
    ```
  
 3. Create a virtual environment
