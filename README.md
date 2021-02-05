@@ -1,4 +1,4 @@
-# 6GEI466_Lab_1
+# 6GEI466_Lab_2
 by Jean-Michel Plourde
 jean-michel.plourde1@uqac.ca
 
