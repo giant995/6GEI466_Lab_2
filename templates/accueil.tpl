@@ -8,7 +8,7 @@
     </script>
 </head>
 <body>
-    <a href="{{ url_for('accueil') }}"><img src="/static/img/zodiac.png" alt="zodiac signs"></a>
+    <a href="{{ url_for('accueil') }}"><img src="/static/zodiac.png" alt="zodiac signs"></a>
     <h1>{{ title }}</h1>
     <br><br>
     <form action="" method="post">
