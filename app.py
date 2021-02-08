@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 
 import datetime
 
-from markupsafe import escape
+from ml_stripper import strip_tags
 
 app = Flask(__name__)
 
@@ -19,12 +19,12 @@ def horoscope():
     is_valid = True
     error_msg = ''
 
-    nom = request.args.get('nom', '0', type=str)
+    nom = strip_tags(request.args.get('nom', '0', type=str))
     if nom == '':
         is_valid = False
         error_msg = error_msg + ' Paramètre [nom] manquant'
 
-    prenom = request.args.get('prenom', '0', type=str)
+    prenom = strip_tags(request.args.get('prenom', '0', type=str))
     if prenom == '':
         is_valid = False
         error_msg = error_msg + ' Paramètre [prénom] manquant'
@@ -62,7 +62,7 @@ def horoscope():
         [22, 10, 11],
         [20, 11, 0]
     ]
-    date_naissance = request.args.get('dateNaissance', '0', type=str)
+    date_naissance = strip_tags(request.args.get('dateNaissance', '0', type=str))
     if date_naissance == '':
         error_msg = error_msg + ' Paramètre [date] manquant'
 
