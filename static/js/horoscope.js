@@ -5,6 +5,8 @@ $(function() {
           prenom: $('input[name="prenom"]').val(),
           dateNaissance: $('input[name="dateNaissance"]').val()
       }, function(data) {
+          console.log(data);
+          $("#horoscope_result").html(data['data']);
       });
       return false;
     });
